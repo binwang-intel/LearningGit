@@ -1,1 +1,2 @@
-this is lib readme txt file
+this is lib readme txt file.
+hello
