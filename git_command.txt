@@ -1,0 +1,51 @@
+git init
+ls -ah
+--create a readme.txt
+git add readme.txt
+git commit -m "create a readme.txt file"
+git diff readme.txt
+git log
+git log --pretty=oneline
+git reset --hard HEAD^
+git reset --hard HEAD^100
+git reflog
+git reset --hard 7384848
+
+git checkout --readme.txt
+git status
+--del delete.txt
+git rm delete.txt
+
+--link to remote resp
+cd learninggit
+git remote add origin https://github.com/binwang-intel/LearningGit.git
+git push -u origin master
+git add LinkToGithub.txt
+git commit -m "add LinkToGithub.txt"
+git push origin master
+
+--create branch
+git checkout -b dev
+--or
+git branch dev
+git checkout dev
+
+--check branch info
+git branch
+
+
+--modify readme.txt
+git add readme.txt
+git commit -m "add new line of branch info"
+
+--switch back to master
+git checkout master
+
+--merge dev to master
+git merge dev
+
+--delete branch dev
+git branch -d dev
+git branch
+
+
