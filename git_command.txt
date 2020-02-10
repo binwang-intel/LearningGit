@@ -55,4 +55,4 @@ git switch -c dev
 --switch to exist branch
 git switch master
 
-
+git log --graph
