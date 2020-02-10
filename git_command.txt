@@ -91,6 +91,11 @@ git show v1.0
 --delete tag
 git tag -d v1.0
 
+---------------------------git config--------------------------
+git config --list
 
+git config --global https.proxy 'https://child-prc.intel.com:913'
+--delete 
+git config --global --unset https.proxy
 
 
