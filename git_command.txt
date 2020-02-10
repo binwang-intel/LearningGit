@@ -95,6 +95,7 @@ git tag -d v1.0
 git config --list
 
 git config --global https.proxy 'https://child-prc.intel.com:913'
+git config --global https.proxy 'socks5://child-prc.intel.com:913'
 --delete 
 git config --global --unset https.proxy
 
