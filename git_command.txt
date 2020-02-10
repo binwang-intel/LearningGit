@@ -1,3 +1,4 @@
+-----------------------------------------init git-----------------------------------------
 git init
 ls -ah
 --create a readme.txt
@@ -16,7 +17,7 @@ git status
 --del delete.txt
 git rm delete.txt
 
---link to remote resp
+-----------------------------------------link to remote resp-----------------------------------------
 cd learninggit
 git remote add origin https://github.com/binwang-intel/LearningGit.git
 git push -u origin master
@@ -24,13 +25,13 @@ git add LinkToGithub.txt
 git commit -m "add LinkToGithub.txt"
 git push origin master
 
---create branch
+-----------------------------------------create branch-----------------------------------------
 git checkout -b dev
 --or
 git branch dev
 git checkout dev
 
---check branch info
+check branch info
 git branch
 
 
@@ -53,3 +54,5 @@ git switch -c dev
 
 --switch to exist branch
 git switch master
+
+
