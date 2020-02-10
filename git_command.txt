@@ -65,3 +65,20 @@ git commit -m "add merger"
 
 git switch master
 git merger --no-ff -m "merger with no-ff" dev
+
+
+----------------------------remote respo---------------
+--check remote respo
+git remote -v
+
+git pull
+git push origin branch-name
+
+--checkout remote branch-name
+git checkout -b branch-name origin/branch-name
+
+--build linkage between local and remote
+git branch --set-upstream branch-name origin/branch-name
+
+
+
