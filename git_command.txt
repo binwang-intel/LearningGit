@@ -55,4 +55,13 @@ git switch -c dev
 --switch to exist branch
 git switch master
 
+git log --graph
 
+--branch management strategy, how to use --no-ff
+git switch -c dev 
+--modify readme.txt
+git add readme.txt
+git commit -m "add merger"
+
+git switch master
+git merger --no-ff -m "merger with no-ff" dev
